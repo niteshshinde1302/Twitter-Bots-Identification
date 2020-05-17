@@ -98,7 +98,7 @@ def scrapedtweets(query,date_since,max_tweets,numRuns):
         #if i+1 != numRuns:
             #time.sleep(920)
             
-        filename = "C:\\Users\\nites\\Desktop\\tweets.csv"
+        filename = "tweets.csv"
         # Store dataframe in csv with creation date timestamp
         db_tweets.to_csv(filename, mode='a', index = False)
     
